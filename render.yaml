@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: goldenline
+    env: docker
+    plan: free
+    buildCommand: ""
+    startCommand: ./start.sh
+    dockerfilePath: Dockerfile
